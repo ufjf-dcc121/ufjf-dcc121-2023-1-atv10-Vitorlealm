@@ -4,6 +4,13 @@ html {
 main{
     display: flex;
 }
+header{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 15px red;
+    border-radius: 5px;
+    padding: 10px;
+}
 header h1{
     margin-bottom: 0;
 }
