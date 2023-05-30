@@ -1,6 +1,7 @@
-import {adicionar, getEstado} from "./store.js";
+import {adicionar, getEstado, remover} from "./store.js";
 const form = document.forms.entrada;
 form.addEventListener('submit', envia);
+form.remover.addEventListener('click', remove);
 
 atualiza();
 
@@ -12,6 +13,12 @@ function envia(event){
     form.valor.value = '';
     form.valor.focus();
     console.log(getEstado())
+    atualiza();
+}
+
+function remove(){
+    console.log("Remove");
+    remover();
     atualiza();
 }
 
