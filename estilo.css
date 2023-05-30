@@ -5,11 +5,12 @@ main{
     display: flex;
 }
 header{
-    background-color: red;
+    background-color: goldenrod;
     color: white;
-    box-shadow: 0 0 15px red;
+    box-shadow: 0 5px 25px goldenrod;
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 header h1{
     margin-bottom: 0;
