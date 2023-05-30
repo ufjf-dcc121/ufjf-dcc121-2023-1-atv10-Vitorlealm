@@ -8,4 +8,8 @@ export function getEstado(){
     return [...store.estado];
 }
 
+export function remover(){
+    store.estado.pop();
+}
+
 export default store;
